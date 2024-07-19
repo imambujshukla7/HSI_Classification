@@ -115,3 +115,12 @@ pip-selfcheck.json
 
 # Local virtual environments
 local_env/
+
+# Ensure Git LFS is initialized and tracking .mat files
+# Run the following commands in your terminal:
+# cd HSI_Classification
+# git lfs install
+# git lfs track "*.mat"
+
+# Do not ignore .gitattributes
+!.gitattributes
