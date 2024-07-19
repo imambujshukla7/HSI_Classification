@@ -7,7 +7,6 @@ This repository contains the implementation of a Hybrid Hypergraph Attention Net
 
 ## Repository Structure
 
-```
 HSI_Classification/
 ├── data/
 │ ├── IP/
@@ -37,6 +36,7 @@ HSI_Classification/
 ├── .gitignore
 └── README.md
 
+```
 
 ## Setup
 
