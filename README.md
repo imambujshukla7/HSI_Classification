@@ -10,33 +10,33 @@ This repository contains the implementation of a Hybrid Hypergraph Attention Net
 ```
 HSI_Classification/
 ├── data/
-│   ├── IP/
-│   │   └── IP.mat
-│   ├── PU/
-│   │   └── PU.mat
-│   ├── KSC/
-│   │   └── KSC.mat
-│   └── SV/
-│       └── SV.mat
+│ ├── IP/
+│ │ └── IP.mat
+│ ├── PU/
+│ │ └── PU.mat
+│ ├── KSC/
+│ │ └── KSC.mat
+│ └── SV/
+│ └── SV.mat
 ├── src/
-│   ├── models/
-│   │   └── hybrid_hypergraph_attention.py
-│   ├── utils/
-│   │   ├── data_loader.py
-│   │   ├── preprocessing.py
-│   │   ├── evaluation.py
-│   │   └── slic.py
-│   └── main.py
+│ ├── models/
+│ │ └── hybrid_hypergraph_attention.py
+│ ├── utils/
+│ │ ├── data_loader.py
+│ │ ├── preprocessing.py
+│ │ ├── evaluation.py
+│ │ └── slic.py
+│ └── main.py
 ├── scripts/
-│   ├── download_datasets.py
-│   ├── train_model.py
-│   └── evaluate_model.py
+│ ├── download_datasets.py
+│ ├── train_model.py
+│ └── evaluate_model.py
 ├── notebooks/
-│   └── HSI_Classification.ipynb
+│ └── HSI_Classification.ipynb
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-```
+
 
 ## Setup
 
