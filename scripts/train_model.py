@@ -70,6 +70,12 @@ def train_model(data_path, model_save_path, n_components=30, n_segments=100, num
         print(f"Error during training: {e}")
 
 if __name__ == "__main__":
+    # Ensure Git LFS is initialized and tracking .mat files
+    # Run the following commands in your terminal:
+    # cd HSI_Classification
+    # git lfs install
+    # git lfs track "*.mat"
+
     data_path = 'data/IP/IP.mat'
     model_save_path = 'model.pth'
     train_model(data_path, model_save_path)
