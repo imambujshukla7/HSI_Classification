@@ -43,4 +43,10 @@ def download_datasets():
         download_file(url, f'data/{key}', f'{key}.mat')
 
 if __name__ == "__main__":
+    # Ensure Git LFS is initialized and tracking .mat files
+    # Run the following commands in your terminal:
+    # cd HSI_Classification
+    # git lfs install
+    # git lfs track "*.mat"
+    
     download_datasets()
