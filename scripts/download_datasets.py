@@ -33,10 +33,10 @@ def download_datasets():
     Download all datasets specified in the URLs dictionary.
     """
     urls = {
-        'IP': 'http://www.ehu.eus/ccwintco/uploads/6/67/Indian_pines_corrected.mat',
-        'PU': 'http://www.ehu.eus/ccwintco/uploads/e/ee/PaviaU.mat',
-        'KSC': 'http://www.ehu.eus/ccwintco/uploads/2/26/KSC.mat',
-        'SV': 'http://www.ehu.eus/ccwintco/uploads/a/a3/Salinas_corrected.mat'
+        'IP': 'https://www.ehu.eus/ccwintco/uploads/c/c4/Indian_pines_gt.mat',
+        'PU': 'https://www.ehu.eus/ccwintco/uploads/5/53/Pavia_gt.mat',
+        'KSC': 'http://www.ehu.es/ccwintco/uploads/a/a6/KSC_gt.mat',
+        'SV': 'https://www.ehu.eus/ccwintco/uploads/f/fa/Salinas_gt.mat'
     }
 
     for key, url in urls.items():
