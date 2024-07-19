@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains the implementation of a Hybrid Hypergraph Attention Network for hyperspectral image classification. The project involves comprehensive data preprocessing, including PCA for dimensionality reduction and SLIC for superpixel segmentation, followed by the construction of a hybrid hypergraph attention network to classify hyperspectral images. The repository includes scripts for data downloading, model training, and evaluation, along with Jupyter notebooks for interactive experimentation, parameter tuning, and ablation studies.
+This repository contains the implementation of a Hybrid Hypergraph Attention Network for hyperspectral image classification. The work involves data preprocessing, including PCA for dimensionality reduction and SLIC for superpixel segmentation, followed by the construction of a hybrid hypergraph attention network to classify hyperspectral images. The repository includes scripts for data downloading, model training, and evaluation, along with Jupyter notebooks for interactive experimentation, parameter tuning, and ablation studies.
 
 ## Repository Structure
 
@@ -43,7 +43,7 @@ HSI_Classification/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/HSI_Classification.git
+git clone https://github.com/imambujshukla7/HSI_Classification.git
 cd HSI_Classification
 ```
 
@@ -139,9 +139,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgements
 
-The datasets used in this project are publicly available from the links provided in the `scripts/download_datasets.py` script. Special thanks to the research community for providing these datasets and resources.
+The datasets used in this project are publicly available from the links provided in the `scripts/download_datasets.py` script. Special thanks to my team at HacktivSpace for providing these datasets and resources.
 
 ## Contact
 
-For any questions or issues, please open an issue in this repository or contact the repository owner.
+For any questions or issues, please open an issue in this repository or contact me.
 ```
