@@ -1,13 +1,13 @@
-numpy==1.21.2            # Array computing and processing
-scipy==1.7.1             # Scientific computing and technical computing
-scikit-learn==0.24.2     # Machine learning library
-h5py==3.1.0              # Reading and writing HDF5 files
-torch==1.9.0             # PyTorch for deep learning
-torchvision==0.10.0      # PyTorch vision library
-seaborn==0.11.2          # Statistical data visualization
-matplotlib==3.4.3        # Plotting and visualization library
-requests==2.26.0         # HTTP library for downloading datasets
-networkx==2.6.2          # Creating and manipulating complex networks
-scikit-image==0.18.3     # Image processing library
-jupyter==1.0.0           # Jupyter Notebook for interactive computing
-pandas==1.3.3            # Data manipulation and analysis library
+numpy==1.21.2          
+scipy==1.7.1             
+scikit-learn==0.24.2    
+h5py==3.1.0             
+torch==1.9.0             
+torchvision==0.10.0      
+seaborn==0.11.2          
+matplotlib==3.4.3        
+requests==2.26.0         
+networkx==2.6.2          
+scikit-image==0.18.3     
+jupyter==1.0.0           
+pandas==1.3.3            
